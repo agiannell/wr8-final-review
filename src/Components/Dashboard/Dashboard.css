@@ -1,0 +1,27 @@
+.dashboard-container {
+    height: calc(100vh - 100px);
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.dashboard-container button {
+    width: 100px;
+}
+
+.post-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-flex div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-image {
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+}

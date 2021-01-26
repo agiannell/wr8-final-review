@@ -1,0 +1,23 @@
+.landing-container {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.authentication-info {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.authentication-info h1 {
+    margin: 0;
+}
+
+.authentication-info span {
+    text-decoration: underline;
+    cursor: pointer;
+}
